@@ -1,0 +1,268 @@
+:root{
+    --green : #8DAC50;
+    --purple : #613B6F;
+    --gray : #1F2224;
+}
+
+*{
+    font-family:Montserrat;
+    
+}
+
+html,body{
+    max-width:100%;
+    overflow-x:hidden;
+    background-color:var(--purple);
+}
+
+
+section{
+    box-sizing:border-box;
+    margin:auto;
+    justify-content: center;
+    width:80%;
+    text-align: center;
+    color:white;
+}
+
+body{
+    margin:0;
+}
+
+#logo{
+    white-space:nowrap;
+    text-align:center;
+} 
+
+.navbar{
+    display:block;
+    position:sticky;
+    background-color: #613B6F;
+}
+
+nav{
+    width: 80%;
+    display:flex;
+    margin: 0px auto;
+    color:white;
+    align-items:center;
+    background-color: #613B6F;
+    padding:0;
+    padding-left:3em;
+    padding-right: 5em;
+}
+
+nav *{
+    background-color: #613B6F;
+}
+
+.navbar{
+    background-color: #613B6F;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    padding:20px;
+}
+ nav ul{
+    width:100%;
+    text-align:right;
+    align-items: center;
+ }
+
+#navbar-simple{
+    text-decoration:none;
+    color:var(--green);
+}
+
+#self{
+    position:inline;
+    padding-bottom:0;
+    max-width:50%;
+    margin-bottom:0;
+    background-color:#613B6F;
+}
+
+#self-container{
+    display:flex;
+    align-items:center;
+    width:100vw;
+    height:60vh;
+    padding:0;
+    margin:auto;
+    padding-top:3em;
+    justify-content: center;
+    background-color:#613B6F;
+    overflow:hidden;
+}
+
+#self-text{
+    padding:1em;
+    width:50%;
+    text-align:left;
+    color:White;
+    background-color:#613B6F;
+}
+
+#self-text div{
+    width:70%;
+}
+
+#self-text h4{
+    margin:none;
+    padding:none;
+    line-height: .0001em;
+}
+
+#self-text h1{
+    margin:none;
+    padding:none;
+    background-color:#613B6F;
+    line-height: 1em;
+
+}
+
+.desc{
+    background-color:#613B6F;
+    margin-bottom:2em;
+    line-height:1.5em;
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+#desc-btn{
+    font-size:1.25em;
+    padding:.5rem 1rem;
+    text-decoration:none;
+    border-style:none;
+    color:white;
+    border-radius:20px;
+}
+
+.circle{
+    display:inline-block;
+    align-items:center;
+    margin:.5em ;
+    background-color:white;
+    width:6em;
+    height:6em;
+    z-index:4;
+    border-radius:50%;
+}
+
+.carousel{
+    display:flex;
+    margin:auto;
+    width:100%;
+    padding:5em;
+    height:10%;
+    flex-direction: row;
+    background-color: #8DAC50;
+}
+
+#carousel-one{
+    color:white;
+    width:25%;
+    margin-right:5rem;
+}
+
+.carousel h4{
+    line-height:.0011em;
+}
+
+#carousel-two{
+    width:50%;
+}
+
+.card{
+    display:inline-block;
+    margin:10px;
+    width:5em;
+    height:30em;
+    background-color:white;
+    border-radius:20px;
+}
+
+footer{
+    margin:20px auto;
+    margin-bottom: 0px;
+    display:inline-block;
+    width:100%;
+    height:4em;
+    padding:1em;
+    flex-direction: row;
+    text-align: center;
+}
+
+hr{
+    width:70%;
+    height:0;
+    border-style:none;
+    border-top:1px solid rgba(255, 255, 255, 0.100);
+}
+
+#footer-logo *{
+    color:rgba(255, 255, 255, 0.750);
+    width:100%;
+    white-space: nowrap;
+    margin:auto;
+    text-align:center;
+    padding-left:1em;   
+}
+
+
+.footer-circle{
+    align-items:center;
+    margin:auto ;
+    width:3em;
+    height:3em;
+    z-index:4;
+    opacity:50%;
+}
+
+#filler-text{
+    font-size:.75rem;
+    color:rgba(255, 255, 255, 0.250);
+}
+
+#footer-cards{
+    display:flex;
+    align-items:center;
+    margin:auto;
+    justify-content:center;
+    text-align:center;
+}
+
+.footer-card{
+    text-align:center;
+    width:20%;
+    margin-top:1.5rem;
+    margin-bottom:1;
+    justify-content: space-evenly;
+}
+
+.footer-desc{
+    font-size:1rem;
+    margin-bottom:1rem;
+    color:rgba(255, 255, 255, 0.750);
+}
+
+#skills{
+    width:80vw;
+    height:50vh;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    flex-direction: column;
+}
+
+.box{
+    display:inline-block;
+    width:15em;
+    height:15em;
+    background-color: var(--gray);
+    margin:1em;
+    border-radius:1.5em;
+}
